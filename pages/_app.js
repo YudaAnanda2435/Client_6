@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <React.StrictMode>
       <Head>
-        <title>Retro 90s Birthday Card</title>
+        <title>special for u </title>
         <meta
           name="description"
           content="Retro Windows 95 style birthday card"

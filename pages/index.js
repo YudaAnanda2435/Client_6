@@ -93,7 +93,7 @@ export default function BirthdayCard() {
   // Router and query parameters
   const router = useRouter();
   const recipientName =
-    typeof router.query.untuk === "string" ? router.query.untuk : "Kamu";
+    typeof router.query.untuk === "string" ? router.query.untuk : "you";
   const senderName =
     typeof router.query.dari === "string" ? router.query.dari : "Aku";
 
@@ -505,7 +505,7 @@ I will always have a soft spot for you loml🩷`;
         <title>Selamat Ulang Tahun {recipientName}!</title>
         <meta
           name="description"
-          content={`Kartu ucapan retro 90an untuk ${recipientName}`}
+          content={`this special card for ${recipientName}`}
         />
         <meta
           name="viewport"
