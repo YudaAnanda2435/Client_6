@@ -37,7 +37,7 @@ export default function BirthdayCard() {
   const galleryItems = [
     {
       type: "image",
-      src: "/gallery/foto1.jpg",
+      src: "/gallery/foto4.jpg",
       caption: "Semoga",
       fallback: "🎈",
     },
@@ -518,7 +518,7 @@ I will always have a soft spot for you loml🩷`;
         <audio
           ref={audioRef}
           style={{ display: "none" }}
-          src="/last_night_on_earth.mp3"
+          src="/abadi.mp3"
           onLoadedMetadata={(e) => setDuration(e.currentTarget.duration)}
         />
 
@@ -1070,7 +1070,7 @@ I will always have a soft spot for you loml🩷`;
                               }}
                             >
                               <iframe
-                                src="/gallery/video1.mp4"
+                                src="/momen.mp4"
                                 style={{
                                   width: "100%",
                                   height: "100%",
