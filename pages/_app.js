@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
      
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/love.png" sizes="any" />
       </Head>
       <Component {...pageProps} />
     </React.StrictMode>
