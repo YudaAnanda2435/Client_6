@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
      
-        <link rel="icon" href="/love.png" sizes="any" />
+        <link rel="icon" href="/gallery/love.png" sizes="any" type="image/svg+xml" />
       </Head>
       <Component {...pageProps} />
     </React.StrictMode>

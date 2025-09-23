@@ -93,7 +93,7 @@ export default function BirthdayCard() {
   // Router and query parameters
   const router = useRouter();
   const recipientName =
-    typeof router.query.untuk === "string" ? router.query.untuk : "you";
+    typeof router.query.untuk === "string" ? router.query.untuk : "Rifky";
   const senderName =
     typeof router.query.dari === "string" ? router.query.dari : "Aku";
 
